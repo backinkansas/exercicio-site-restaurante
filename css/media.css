@@ -1,0 +1,27 @@
+@media (min-width: 361px) { 
+    header { 
+        background-position: center center;
+        min-height: 57vh;
+    }
+
+    .cardapio {
+        background-color: red;
+    }
+}
+
+@media (min-width: 769px) {
+    .cardapio {
+        background-color: green;
+    }
+
+    .conteudo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .comida p {
+    }
+}
+

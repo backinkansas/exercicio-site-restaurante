@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffe100;
+}
+
+nav img {
+    height: 100%;
+    margin: 1%;
+}
+
+nav > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 7px;
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.caixa {
+    width: 54%;
+}
+
+header { 
+    background-image: url(../img/bg-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+}
+
+h1 { 
+    color: #ffe100;
+    font-size: 52px;
+    text-align: center;
+    padding-top: 40px;
+    text-shadow: 1px 1px black;
+}
+
+.endereco {
+    background-color: #3f404b;
+    color: #ffffff;
+    text-align: center;
+    padding: 19px 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 29px;
+    margin-bottom: 19px;
+
+}
+
+.endereco form {
+    padding-bottom: 19px;
+}
+
+.cardapio { 
+    background-color: #ffe100;
+    padding: 19px 0;
+}
+
+.cardapio a { 
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    background-color: #3f404b;
+    margin-right: 10px;
+}
+
+.destaques { 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.pratos { 
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+h3 { 
+    margin: 10px;
+}
+
+footer img { 
+    padding: 5px;
+}
+
+footer > div { 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #3f404b;
+    color: white;
+    padding: 19px 0;
+    align-items: center;
+}
+
+
