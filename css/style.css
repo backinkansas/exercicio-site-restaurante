@@ -23,12 +23,19 @@ nav > div {
 
 nav a {
     text-decoration: none;
+    padding: 10px;
+    color: white;
+    background-color: #3f404b;
     margin-right: 10px;
 }
 
 form {
     display: flex;
     justify-content: center;
+}
+
+.botao {
+    margin-right: 1%;
 }
 
 .caixa {
@@ -39,7 +46,7 @@ header {
     background-image: url(../img/bg-header.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 50vh;
+    min-height: 43vh;
 }
 
 h1 { 

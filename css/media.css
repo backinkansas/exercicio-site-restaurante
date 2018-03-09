@@ -1,27 +1,16 @@
 @media (min-width: 361px) { 
     header { 
         background-position: center center;
-        min-height: 57vh;
-    }
-
-    .cardapio {
-        background-color: red;
+        min-height: 42vh;
     }
 }
 
 @media (min-width: 769px) {
-    .cardapio {
-        background-color: green;
-    }
-
     .conteudo {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        align-items: space-between;
         flex-direction: column;
-    }
-
-    .comida p {
+        width: 38%;
+        margin: 0 auto;
     }
 }
-
